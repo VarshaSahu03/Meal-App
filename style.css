@@ -590,11 +590,11 @@ body {
 }
 
 .item-details {
-    min-height: 300px;
+    min-height: 100%;
     width: 100%;
-    padding: 10px 50px;
+    padding: 50px 50px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     background-color: hsl(235, 24%, 19%);
@@ -608,12 +608,13 @@ body {
 
 .item-details-left img {
 
-    height: 250px;
-    max-width: 250px;
+    height: 200px;
+    max-width: 200px;
     object-fit: cover;
     border-radius: 20px;
 
 }
+
 
 .item-details-right {
     margin-left: 30px;
