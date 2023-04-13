@@ -702,3 +702,58 @@ body {
     cursor: pointer;
     color: hsl(0, 85%, 48%)
 }
+/* media querries */
+@media screen and (max-width: 650px) {
+    .title {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+        letter-spacing: 10px;
+        text-align: center;
+        text-shadow: 3px -2px 7px rgb(228, 62, 206);
+    
+    }
+    .new-search-input input {
+        width: 90%;
+        padding: 7px 0px;
+        background-color: none;
+        border: none;
+        outline: none;
+        color: black;
+        font-size: 10px;
+        
+    
+    }
+    .top-logo {
+        width: 100px;
+        height: 30px;
+        padding-left: 20px;
+        display: flex;
+        align-items: flex-start;
+        font-size: 1rem;
+        justify-content: center;
+        color: white;
+        text-shadow: 2px -1px 6px hsl(234, 39%, 85%);
+        flex-direction: column;
+    
+    
+    }
+    #search-bar {
+      
+        background-color: white;
+        height: 40px;
+        margin-top: 30px;
+        border-radius: 15px;
+        display: flex;
+    
+    
+    }
+    .icon {
+
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+  }
